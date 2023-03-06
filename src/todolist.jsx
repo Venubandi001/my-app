@@ -56,6 +56,7 @@ class TodoList extends React.Component{
         name:"",
         todo:[...this.state.todo,this.state.name]
        })
+       console.log(this.state.todo);
     }}>
             <input type="text" name="" id="m1" onChange={(e)=>{
                 this.setState({

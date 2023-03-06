@@ -7,3 +7,10 @@
 .v1{
     color: red;
 }
+.Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+}

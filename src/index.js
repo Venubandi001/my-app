@@ -2,20 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hell from './first';
+// import Hell from './first';
 // import Color1 from './pagecolor';
-import TodoList from './todolist'; 
+// import TodoList from './todolist';
+// import ToDo from './Todowjson';
+// import Card1 from './cards';
+// import Category from './Cardcategory';
+// import Hoook1 from './hooks1';
+// import Hoook2 from './hook2';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Hell />
+    {/* <Hell /> */}
     {/* <Color1 /> */}
     {/* <TodoList/> */}
+    {/* <ToDo/> */}
+    <App/>
+    {/* <Card1/> */}
+    {/* <Category/> */}
+    {/* <Hoook1/> */}
+    {/* <Hoook2/> */}
+    
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
